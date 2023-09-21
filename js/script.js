@@ -63,10 +63,10 @@ console.log(team)
 
 function newCard(object){
   const col = document.createElement('div');
-  col.className = 'col my-5';
+  col.className = 'col';
 
   const cardContent = document.createElement('div');
-  cardContent.className = 'card-body card card_Content';
+  cardContent.className = 'card-body card card_Content my-3';
   col.append(cardContent)
 
   const img = document.createElement('img');
@@ -87,5 +87,7 @@ function newCard(object){
 
   const mainContainer = document.querySelector('.row')
   mainContainer.append(col)
+
+  
 }
 

@@ -1,4 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #f5f5f1;
+  text-align: center;
+}
+
 .card_Content{
   width: 300px;
   height: 400px;
+}
+
+.container_fr{
+  width: 500px;
 }
