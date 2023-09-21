@@ -66,7 +66,7 @@ function newCard(object){
   col.className = 'col';
 
   const cardContent = document.createElement('div');
-  cardContent.className = 'card-body card card_Content my-3';
+  cardContent.className = 'card-body card my-3';
   col.append(cardContent)
 
   const img = document.createElement('img');
